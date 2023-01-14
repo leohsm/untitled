@@ -10,7 +10,7 @@ fn ler_string() -> String {
 
     io::stdin()
         .read_line(&mut buffer)
-        .expect("Falha ao ler linha.");
+        .expect("Failed to read line.");
 
     buffer.trim().to_string()
 }
